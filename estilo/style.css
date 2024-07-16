@@ -39,12 +39,16 @@ section.p{
     padding-bottom: 2px;
 }
 section.normal{
-    background-color: rgb(240, 235, 235);
+    background-color: rgb(189, 163, 163);
     color: white;
 }
 section.normal>p{
     width: 400px;
-    background-color: rgba(26, 26, 26, 0.24);
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: rgb(226, 173, 173) 10px 10px 10px;
+    display: block;
 }
 section.imagem{
     background-color: rgb(19, 18, 18);
@@ -62,12 +66,12 @@ section.imagem>p{
     
 }
 section#img01{
-    background-image: url(/Desafios/desafio12/imgs/background001.jpg);
+    background-image: url(/imgs/background001.jpg);
     background-position: right center;
    
 }
 section#img02{
-    background-image: url(/Desafios/desafio12/imgs/background002.jpg);
+    background-image: url(/imgs/background002.jpg);
     background-position: right center;
 }
 
